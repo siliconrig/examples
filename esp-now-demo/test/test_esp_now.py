@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 import pytest
-from flashbay import Board
+from siliconrig import Board
 
 _DIR = Path(__file__).resolve().parent.parent
 SENDER_FW = str(_DIR / "sender" / "build" / "sender-merged.bin")

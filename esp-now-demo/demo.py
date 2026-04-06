@@ -5,8 +5,8 @@ import re
 import time
 from pathlib import Path
 
-from flashbay import Board
-from flashbay.exceptions import SerialTimeout
+from siliconrig import Board
+from siliconrig.exceptions import SerialTimeout
 
 DIR = Path(__file__).resolve().parent
 SENDER_FW = str(DIR / "sender" / "build" / "sender-merged.bin")
